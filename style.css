@@ -1,0 +1,699 @@
+@font-face {
+    font-family: OpenSansReg;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSansBold;
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: TekoReg;
+    src: url(fonts/Teko-Regular.ttf);
+}
+
+@font-face {
+    font-family: TekoBold;
+    src: url(fonts/Teko-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: OpenSansReg;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+header {
+    background-color: #141414;
+}
+
+.logonav {
+    width: 1304px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logoback {
+    background-color: #99823D;
+    width: 436px;
+    height: 136px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.logoimage {
+    background: url(images/logo.png);
+    width: 190px;
+    height: 49px;
+    z-index: 2;
+}
+
+.navigation {
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.madewith {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 34px;
+}
+
+.archic {
+    font-size: 9px;
+    opacity: 0.75;
+}
+
+.love {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.love::after {
+    content: url(images/heart.png);
+    width: 17px;
+    height: 17px;
+    margin-left: 8px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 42px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+    letter-spacing: 2.7625px;
+    opacity: 0.75;
+}
+
+.underheader {
+    width: 1304px;
+    height: 591px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.headerback {
+    background: url(images/headerback.png);
+    width: 978px;
+    height: 591px;
+    position: absolute;
+    top: -68px;
+    z-index: 1;
+}
+
+.cubeback {
+    background-color: #99823D;
+    width: 489px;
+    height: 329px;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+}
+
+.vision {
+    background-color: white;
+    width: 584px;
+    height: 455px;
+    position: absolute;
+    z-index: 2;
+    right: 68px;
+}
+
+.visiontxt {
+    width: 450px;
+    height: 316px;
+    margin: 67px auto;
+}
+
+.letterspacingsize11 {
+    font-size: 11px;
+    color: #99823D;
+    letter-spacing: 2.7625px;
+}
+
+.teko67 {
+    font-family: TekoReg;
+    font-size: 67px;
+    line-height: 67px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.typetext {
+    font-size: 17px;
+    line-height: 26px;
+    margin-top: 32px;
+}
+
+.butthead {
+    color: white;
+    letter-spacing: 2.975px;
+    font-size: 12px;
+    width: 216px;
+    height: 68px;
+    background: #99823D;
+    border: none;
+    margin-top: 14px;
+}
+
+.colorblack {
+    background-color: #141414;
+    margin-left: 13px;
+}
+
+.socials {
+    display: flex;
+    background-color: white;
+    height: 68px;
+    width: 815px;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    gap: 44px;
+    display: flex;
+}
+
+.cstype {
+    font-size: 12px;
+    letter-spacing: 2.975px;
+    font-weight: 400;
+}
+
+.margin3px {
+    margin-left: 3px;
+}
+
+.back1 {
+    background-color: #EBEBEB;
+    height: 872px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.main1 {
+    width: 1176px;
+    margin: 136px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teko26 {
+    font-family: TekoReg;
+    font-size: 26px;
+    line-height: 26px;
+    margin-top: 13px;
+}
+
+.main1right {
+    width: 424px;
+}
+
+.rightop {
+    margin-left: 33.5px;
+    margin-top: 38px;
+    height: 160px;
+}
+
+.rightbottom {
+    margin-left: 32px;
+    height: 160px;
+}
+
+.date {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.teko53 {
+    font-family: TekoReg;
+    font-size: 53px;
+    line-height: 55px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.lorem1 {
+    font-size: 17px;
+    line-height: 26px;
+    margin-top: 25px;
+}
+
+.lorem2 {
+    font-size: 17px;
+    line-height: 26px;
+    margin-top: 14px;
+}
+
+.achievements {
+    width: 1176px;
+    display: flex;
+    margin: 10px auto 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dot {
+    background: url(images/dot.png);
+    width: 9px;
+    height: 9px;
+    margin-top: 20px;
+}
+
+.bignumteko {
+    font-size: 59px;
+    font-family: TekoBold;
+}
+
+.forwhat {
+    font-size: 12px;
+    font-family: OpenSansReg;
+    letter-spacing: 2.975px;
+    color: #99823D;
+    margin-top: -7px;
+    margin-left: 3px;
+    text-align: center;
+}
+
+.typeofhouses {
+    display: flex;
+    width: 1304px;
+    margin: 137px auto 0 auto;
+    justify-content: space-between;
+}
+
+.livingroom {
+    background: url(images/livingroom.png);
+    width: 412px;
+    height: 275px;
+    position: relative;
+    z-index: 1;
+}
+
+.oceanview {
+    background: url(images/ocenview.png);
+    width: 412px;
+    height: 275px;
+    position: relative;
+    z-index: 1;
+}
+
+.diningarea {
+    background: url(images/diningarea.png);
+    width: 412px;
+    height: 275px;
+    position: relative;
+    z-index: 1;
+}
+
+.newhouse {
+    font-size: 11px;
+    color: white;
+    letter-spacing: 2.72px;
+    background-color: #141414;
+    position: absolute;
+    width: 103px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whitedelitel {
+    display: flex;
+}
+
+.whitething1 {
+    width: 1px;
+    height: 275px;
+    background-color: white;
+    margin-left: 103px;
+}
+
+.whitething2 {
+    width: 1px;
+    height: 275px;
+    background-color: white;
+    margin-left: 101px;
+}
+
+.whitething3 {
+    width: 1px;
+    height: 275px;
+    background-color: white;
+    margin-left: 102px;
+    z-index: -1;
+}
+
+.namehouse {
+    font-family: TekoReg;
+    font-size: 26px;
+    color: white;
+    background-color: #141414;
+    width: 378px;
+    height: 59px;
+    text-align: center;
+    padding-top: 9px;
+    z-index: 1;
+}
+
+.design {
+    letter-spacing: 2.7625px;
+    font-size: 11px;
+    color: white;
+    padding-top: 10px;
+    background-color: #99823D;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    bottom: -68px;
+    text-align: center;
+    width: 207px;
+    height: 92px;
+}
+
+.delitelblockov {
+    width: 1304px;
+    margin: 130px auto 66px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.blackdot {
+    background: url(images/blackdot.png);
+    width: 11px;
+    height: 11px;
+}
+
+.services {
+    width: 1312px;
+    margin: 0 auto;
+}
+
+.servicestop {
+    text-align: center;
+}
+
+.servicetxt {
+    font-size: 11px;
+    letter-spacing: 2.7625px;
+    color: #99823D;
+}
+
+.tekobold {
+    font-size: 53px;
+    font-family: TekoBold;
+    line-height: 53px;
+    margin-top: 6px;
+}
+
+.block {
+    width: 391px;
+    height: 228px;
+}
+
+.blocktop {
+    display: flex;
+    justify-content: center;
+    margin-top: 116px;
+}
+
+.blockbot {
+    display: flex;
+    justify-content: center;
+}
+
+.topinblock {
+    display: flex;
+    align-items: center;
+}
+
+.arch {
+    background: url(images/arch.png);
+    width: 68px;
+    height: 68px;
+    margin-left: 31px;
+    opacity: 1;
+}
+
+.interdesign {
+    background: url(images/design.png);
+    width: 68px;
+    height: 68px;
+    margin-left: 32px;
+}
+
+.plan {
+    background: url(images/plan.png);
+    width: 68px;
+    height: 68px;
+    margin-left: 34px;
+}
+
+.const {
+    background: url(images/constr.png);
+    width: 60px;
+    height: 68px;
+    margin-left: 32px;
+}
+
+.energy {
+    background: url(images/energy.png);
+    width: 51px;
+    height: 68px;
+    margin-left: 32px;
+}
+
+.document {
+    background: url(images/document.png);
+    width: 51px;
+    height: 68px;
+    margin-left: 34px;
+}
+
+.textetx {
+    margin-left: 18px;
+}
+
+.razdel {
+    letter-spacing: 2.7625px;
+    color: #99823D;
+    font-size: 11px;
+}
+
+.namerazdel {
+    font-family: TekoReg;
+    color: black;
+    font-size: 26px;
+    margin-top: 4px;
+}
+
+.namerazdel2 {
+    font-family: TekoReg;
+    color: black;
+    font-size: 26px;
+    margin-top: 7px;
+}
+
+.typerazdel {
+    font-size: 17px;
+    line-height: 26px;
+    color: black;
+    margin-top: 17px;
+    margin-left: 33px;
+}
+
+.typerazdel2 {
+    font-size: 17px;
+    line-height: 26px;
+    color: black;
+    margin-top: 17px;
+    margin-left: 36px;
+}
+
+.allservices {
+    background-color: #99823D;
+    font-size: 12px;
+    letter-spacing: 2.975px;
+    width: 392px;
+    height: 68px;
+    border: none;
+    align-items: center;
+    display: block;
+    margin: 58px auto 0 auto;
+    color: white;
+}
+
+footer {
+    margin: 107px auto 0 auto;
+    height: 615px;
+}
+
+.grayback {
+    background-color: #EBEBEB;
+    width: 100%;
+    height: 378px;
+}
+
+.dot2 {
+    background: url(images/dot.png);
+    width: 9px;
+    height: 9px;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+    width: 1168px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 68px;
+}
+
+.spons1 {
+    background: url(images/spons1.png);
+    width: 154px;
+    height: 38px;
+}
+
+.spons2 {
+    background: url(images/spons2.png);
+    width: 140px;
+    height: 37px;
+}
+
+.spons3 {
+    background: url(images/spons3.png);
+    width: 109px;
+    height: 32px;
+}
+
+.spons4 {
+    background: url(images/spons4.png);
+    width: 142px;
+    height: 38px;
+}
+
+.spons5 {
+    background: url(images/spons5.png);
+    width: 148px;
+    height: 38px;
+}
+
+.bottomlinks {
+    width: 1304px;
+    height: 139px;
+    margin: 133px auto 0 auto;
+    background-color: #3D3D3D;
+}
+
+.textvnutri {
+    width: 1168px;
+    height: 169px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logosmall {
+    background: url(images/smallogo.png);
+    width: 131px;
+    height: 34px;
+}
+
+.mail {
+    width: 1168px;
+    height: 204px;
+    background-color: #99823D;
+    margin: 0px auto 0 auto;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 45px;
+}
+
+footer {
+    background-color: #141414;
+}
+
+.poweredby {
+    width: 1168px;
+    margin: 192px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.lsc {
+    display: flex;
+    gap: 45px;
+}
+
+.lsctxt a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2.7625px;
+    font-size: 11px;
+}
+
+.webflow {
+    color: white;
+    font-size: 11px;
+    letter-spacing: 2.7625px;
+}
+
+.power {
+    opacity: 0.75;
+}
+
+.sendemail {
+    width: 1032px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.entermail {
+    padding-left: 37px;
+    height: 68px;
+    width: 822px;
+    font-family: OpenSansBold;
+    font-size: 11px;
+    letter-spacing: 2.7625px;
+    border: none;
+    outline: none;
+}
+
+.subscribe {
+    font-family: OpenSansBold;
+    font-size: 11px;
+    width: 155px;
+    letter-spacing: 2.7625px;
+    background-color: #141414;
+    color: white;
+    border: none;
+}
